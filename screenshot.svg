@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">Text to Speech Converter app preview</title>
+  <desc id="description">A text-to-speech app on a purple-to-pink gradient background, with a heading, text area, and play button.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#161578"/>
+      <stop offset="100%" stop-color="#b81055"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f4244c"/>
+      <stop offset="100%" stop-color="#f57d4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#background)"/>
+  <g fill="#fff" font-family="Poppins, Arial, sans-serif" text-anchor="middle">
+    <text x="640" y="98" font-size="42" font-weight="700">Text to Speech Converter</text>
+    <text x="640" y="166" font-size="24" font-weight="700">Enter Text and Convert into Speech</text>
+  </g>
+  <rect x="453" y="237" width="362" height="212" rx="12" fill="#3f464a" fill-opacity=".32" stroke="#fff" stroke-width="1.5"/>
+  <text x="466" y="265" fill="#fff" fill-opacity=".8" font-family="Poppins, Arial, sans-serif" font-size="15">Enter text to convert into speech...</text>
+  <rect x="453" y="529" width="362" height="54" rx="11" fill="url(#button)"/>
+  <text x="634" y="562" fill="#fff" font-family="Poppins, Arial, sans-serif" font-size="16" text-anchor="middle">Play Converted Sound</text>
+</svg>
